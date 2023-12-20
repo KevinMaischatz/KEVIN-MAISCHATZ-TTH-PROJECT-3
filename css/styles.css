@@ -176,7 +176,8 @@ footer {
 
 @media screen and (min-width: 768px) {
 
-    .flex {
+
+    .side {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -185,7 +186,7 @@ footer {
 
     #contact-fieldset input,
     select {
-        width: 100%;
+        width: 70%;
     }
 
     #topics {
@@ -195,12 +196,12 @@ footer {
     #contact-fieldset label {
         margin: 1rem 0;
         padding: 5px 0;
+        
     }
 
     #contact-fieldset #zip {
         width: 25%;
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: 45%;
     }
 
-}
+}   
