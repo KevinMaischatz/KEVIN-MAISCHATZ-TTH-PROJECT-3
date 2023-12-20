@@ -1,6 +1,6 @@
 body {
     font-family: 'Merriweather', sans-serif;
-    background-color: white;
+    background-color: rgb(169, 165, 165);
     margin: 0;
     padding: 0;
 }
@@ -69,7 +69,8 @@ form {
 select:focus,
 textarea:focus {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
+    
 }
 
 fieldset {
@@ -87,6 +88,7 @@ fieldset {
 #contact-fieldset input,
   select {
       height: 2.75rem;
+
   }
 
 #contact-fieldset label {
@@ -103,6 +105,7 @@ textarea {
   margin-top: 5px;
   background-color: #e8e6e6;
   border-radius: 5px;
+  transition: 1s ease-in, orange 1s ease-out;
 }
 
 #contact-fieldset #zip {
